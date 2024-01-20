@@ -1,0 +1,320 @@
+/*====== CSS ======*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-seri;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.container__left {
+  height: 100vh;
+  position: relative;
+}
+
+.photoby {
+  position: absolute;
+  margin-top: -48.5px;
+  margin-left: 42px;
+  color: var(--white-ffffff, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: -0.4px;
+}
+
+.container__right {
+  display: flex;
+  margin: 4.8vh;
+  position: relative;
+  width: 360px;
+  height: 805px;
+  flex: 100%;
+}
+
+div > .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+header h1 .logo__caption {
+  color: var(--Main-Body, #23155b);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+form {
+  display: block;
+  position: absolute;
+  top: 164px;
+}
+
+div .login__form .heading {
+  color: var(--black-9001-a-1-a-1-a, #1a1a1a);
+  position: absolute;
+  top: 112px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 28px;
+}
+
+form label {
+  display: block;
+  padding-left: 16px;
+  padding-bottom: 8px;
+}
+
+div .password {
+  margin-top: 16px;
+}
+
+input {
+  width: 360px;
+  padding: 8px 8px 8px 16px;
+  align-items: center;
+  background-color: #efefef;
+  border-radius: 6px;
+  border: none;
+}
+
+.login,
+.password {
+  color: var(--black-800333333, #333);
+  font-family: Arial;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+}
+
+.button_link {
+  display: block;
+  position: relative;
+}
+
+.forgot__password {
+  text-align: right;
+  display: block;
+  width: 360px;
+  margin-top: 20px;
+  color: var(--system-blue-007-aff, #007aff);
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+
+.forgot__password:hover {
+  color: #000000;
+  text-transform: none;
+  transition: all 0.5s ease;
+}
+
+.signin {
+  margin-top: 36px;
+  padding: 8px 8px 8px 16px;
+  width: 360px;
+  border: none;
+  border-radius: 6px;
+  background-color: #8053ff;
+
+  color: var(--white-ffffff, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+}
+
+.signin:hover {
+  background-color: rgb(122, 185, 240);
+  color: rgb(23, 2, 2);
+  transition: all 0.5s ease;
+}
+
+hr {
+  width: 360px;
+  height: 0.5px;
+  align-self: stretch;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: 0.3px solid #e5e5e5;
+}
+
+.gsignin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 8px 8px 16px;
+  width: 360px;
+  border: none;
+  border-radius: 6px;
+  background-color: #333;
+  color: var(--white-ffffff, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.3px;
+  margin-bottom: 24px;
+  gap: 8px;
+}
+
+.gsignin:hover {
+  background-color: #ca7c7c;
+  color: #efefef;
+  transition: all 0.5s ease;
+}
+
+.signup {
+  text-align: center;
+}
+
+.a__signup {
+  color: var(--Main-Primary, #8053ff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+
+.a__signup:hover {
+  color: #e5e5e5;
+  transition: all 0.4s ease;
+}
+
+footer {
+  margin-top: 789px;
+  margin-left: 127px;
+  color: #666;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+}
+
+/* ===== Responsive Design */
+
+@media (max-width: 1432px) {
+  #picture__login {
+    width: 700px;
+    height: 836.25px;
+  }
+}
+
+@media (max-width: 1042px) {
+  #picture__login {
+    width: 500px;
+    height: 836.25px;
+  }
+}
+
+@media (max-width: 800px) {
+  #picture__login {
+    display: none;
+  }
+}
+
+/*====== Mobile Layout ======*/
+
+@media (max-width: 376px) {
+  .container__right {
+    border-radius: 24px;
+    width: 375px;
+    height: 812px;
+    padding: 35.619px 16px 184.381px 16px;
+  }
+
+  div .login__form .heading {
+    top: 35.6px;
+    left: 16px;
+  }
+
+  form {
+    top: 87.6px;
+  }
+
+  form > input {
+    width: 270px;
+    top: 24px;
+  }
+
+  div > input {
+    width: 270px;
+    margin-bottom: -5px;
+  }
+
+  form > label,
+  div > label {
+    display: none;
+  }
+
+  .forgot__password {
+    padding-right: 90px;
+    color: #8053ff;
+  }
+
+  .signin,
+  .gsignin {
+    width: 270px;
+  }
+
+  .signin:hover {
+    background-color: rgb(122, 185, 240);
+    color: rgb(23, 2, 2);
+    transition: all 0.5s ease;
+  }
+
+  hr {
+    width: 270px;
+    border: 0.3px solid #e5e5e5;
+  }
+
+  div > .logo {
+    bottom: -330px;
+    left: 52.5px;
+  }
+
+  .button_link p {
+    padding-right: 90px;
+  }
+
+  footer {
+    position: absolute;
+    top: -100px;
+    left: -25px;
+}
